@@ -1,36 +1,6 @@
-# Node.js TypeScript Jest Boilerplate
+# Node.JS Typescript Jest Example
 
-A clean and minimal boilerplate for Node.js applications using TypeScript and Jest for testing.
-
-## Features
-
-- ✅ TypeScript configuration with strict mode
-- ✅ Jest testing framework with TypeScript support
-- ✅ Sample code with Calculator and Logger utilities
-- ✅ Comprehensive test coverage examples
-- ✅ Development and build scripts
-- ✅ Code coverage reporting
-
-## Project Structure
-
-```
-jest-test/
-├── src/
-│   ├── index.ts          # Main application entry point
-│   ├── calculator.ts     # Calculator utility class
-│   ├── calculator.test.ts # Calculator tests
-│   ├── logger.ts         # Logger utility class
-│   └── logger.test.ts    # Logger tests
-├── dist/                 # Compiled JavaScript output
-├── coverage/             # Test coverage reports
-├── package.json          # Project dependencies and scripts
-├── tsconfig.json         # TypeScript configuration
-├── jest.config.js        # Jest configuration
-├── .gitignore           # Git ignore rules
-└── README.md            # This file
-```
-
-## Getting Started
+Example code to work around jest limitations with mocking modules. If you run into issues with your mock not being registered by jest, try using the format in this repository.
 
 ### Prerequisites
 
@@ -93,18 +63,6 @@ npm run test:coverage
 - `npm run test:watch` - Run tests in watch mode
 - `npm run test:coverage` - Generate coverage report
 - `npm run clean` - Remove the dist directory
-
-## Code Examples
-
-The boilerplate includes two sample classes:
-
-### Calculator
-
-A simple calculator class with basic arithmetic operations and comprehensive tests.
-
-### Logger
-
-A logger utility with different log levels and proper test mocking.
 
 ## Configuration
 
