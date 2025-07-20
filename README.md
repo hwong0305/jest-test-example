@@ -4,7 +4,7 @@ Example code to work around jest limitations with mocking modules. If you run in
 
 ### Prerequisites
 
-- Node.js (version 18 or higher)
+- Node.js (version 22 or higher for global fetch)
 - npm or yarn
 
 ### Installation
